@@ -24,6 +24,6 @@ public class Demo {
         @AfterMethod
         public void logout()
         {
-            // driver.quit();
+            driver.close();
         }
 }
